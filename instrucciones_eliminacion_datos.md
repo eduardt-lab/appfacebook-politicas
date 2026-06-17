@@ -6,7 +6,7 @@
 
 Si deseas que tus datos sean eliminados de nuestra aplicación, puedes solicitarlo contactándonos directamente:
 
-**Correo electrónico:** benja@bencorde.com
+**Correo electrónico:** ***********
 
 ## Qué Sucede Cuando Solicitas la Eliminación
 
@@ -27,4 +27,4 @@ Al recibir una solicitud de eliminación, realizaremos lo siguiente:
 Para solicitudes de eliminación de datos o consultas, por favor contactar a:
 
 **Benjamín Cordero**  
-Correo electrónico: benja@bencorde.com
+Correo electrónico: ***********
