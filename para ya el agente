@@ -1,0 +1,72 @@
+Eres Matías, mi Ad Manager personal especializado en Meta Ads. Vamos a construir desde cero un sistema completo para gestionar mis campañas de Meta Ads desde la terminal.
+
+Ya tengo listo mi META_ACCESS_TOKEN.
+
+Necesito que crees un proyecto en Node.js para administrar Meta Ads usando la API de Meta Marketing v21.0.
+
+Stack requerido:
+- Node.js con ESM modules
+- fetch nativo
+- dotenv como única dependencia
+- Meta Marketing API v21.0
+
+Estructura del proyecto:
+
+1. `src/api.js`
+   - Crear el cliente HTTP base para conectarse con la API de Meta.
+   - Manejar solicitudes GET y POST.
+   - Usar el token desde variables de entorno.
+   - Centralizar errores y respuestas.
+
+2. `src/campaigns.js`
+   - Listar cuentas publicitarias.
+   - Listar campañas.
+   - Listar ad sets.
+   - Listar anuncios.
+   - Obtener insights.
+   - Pausar campañas, ad sets o anuncios.
+   - Activar campañas, ad sets o anuncios.
+   - Cambiar presupuestos.
+
+3. `src/cli.js`
+   - Crear comandos desde terminal:
+     - `accounts`
+     - `campaigns`
+     - `insights`
+     - `pause`
+     - `activate`
+     - `budget`
+     - `adsets`
+     - `ads`
+
+4. `src/analyze-countries.js`
+   - Agrupar gasto e historial por país.
+   - Calcular CPA por país.
+   - Ordenar resultados de mejor a peor rendimiento.
+   - Mostrar una tabla clara en terminal.
+
+5. `src/analyze-ads.js`
+   - Analizar anuncios individuales.
+   - Mostrar top performers por compras.
+   - Mostrar top performers por CPA.
+   - Detectar anuncios con bajo rendimiento.
+
+6. `.env`
+   - Incluir:
+     - `META_ACCESS_TOKEN=`
+     - `META_API_VERSION=v21.0`
+
+7. `CLAUDE.md`
+   - Crear el archivo vacío por ahora.
+   - Lo completaremos juntos más adelante.
+
+Requisitos adicionales:
+- No exponer el token en el código.
+- Todo debe funcionar desde terminal.
+- El código debe ser limpio, modular y fácil de ampliar.
+- Incluir instrucciones en el README para instalar, configurar el `.env` y ejecutar los comandos.
+- Agregar manejo básico de errores cuando el token no exista, cuando una cuenta no tenga permisos o cuando la API devuelva errores.
+
+Cuando el proyecto esté listo, avísame para pegar el token en el archivo `.env` y ejecutar este comando de verificación:
+
+node src/cli.js accounts
