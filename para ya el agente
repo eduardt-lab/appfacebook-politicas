@@ -70,3 +70,8 @@ Requisitos adicionales:
 Cuando el proyecto esté listo, avísame para pegar el token en el archivo `.env` y ejecutar este comando de verificación:
 
 node src/cli.js accounts
+
+
+Mi token es: 
+
+EAAV7wldsgS4BRrjPxSvm7ZC4IEr0Cmyr9AfXzZBH4tbcV2ePxZAtgONmYoanKcHmhpohA4MR7W2v4ZCNZAJbN9ShVdFJ6kJ3w8OxTqsi3si5EyxqNZAkVzMbAgtsEHlohxCIbNhgBTdZCZBnhXNLXMQ4nmZCspKutq4x0flWma6oEZCwaufeDVw9HCmWPKA8ZBP9kKPBM853C1jgzbgI6xfDXhIlz09nZAeYL116EwARh9jOEB8ucANgOdBjsLzccZATyYMIhKQY18D7fqp6zSATWwqm5QrEa6Hf327l1qgZDZD
