@@ -38,4 +38,4 @@ Esta política de privacidad puede actualizarse periódicamente. Cualquier cambi
 
 Para cualquier pregunta relacionada con esta política de privacidad, por favor contactar a:
 
-**Benjamín Cordero**
+*****************
